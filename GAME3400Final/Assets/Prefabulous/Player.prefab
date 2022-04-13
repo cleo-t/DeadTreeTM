@@ -1390,8 +1390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 200
-  minPitch: -10
-  maxPitch: 80
+  minPitch: -90
+  maxPitch: 90
 --- !u!1 &5271230599158198421
 GameObject:
   m_ObjectHideFlags: 0
