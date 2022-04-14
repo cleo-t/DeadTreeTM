@@ -1322,7 +1322,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 32768
+        atime1: 21588
         atime2: 65535
         atime3: 0
         atime4: 0
@@ -9642,12 +9642,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   baseEmissionCoeff: 2
-  maxEmissionCoeff: 50
-  baseAlphaCoeff: 1
+  maxEmissionCoeff: 40
+  baseAlphaCoeff: 0.2
   maxAlphaCoeff: 1
   range: 30
-  emissionQFactor: 0.75
-  alphaQFactor: 0.5
+  emissionQFactor: 3
+  alphaQFactor: 4
 --- !u!1 &821252803434340380
 GameObject:
   m_ObjectHideFlags: 0
@@ -10970,7 +10970,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 32768
+        atime1: 21588
         atime2: 65535
         atime3: 0
         atime4: 0
@@ -15061,7 +15061,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 10000
+    maxNumParticles: 50000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -15782,7 +15782,7 @@ ParticleSystem:
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 33153
+        atime1: 21588
         atime2: 65535
         atime3: 0
         atime4: 0

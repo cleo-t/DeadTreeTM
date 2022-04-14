@@ -20,6 +20,7 @@ public class TeleportAndSwap : MonoBehaviour
 
     void Start()
     {
+        this.transform.parent = null;
         this.player = GameObject.FindGameObjectWithTag(this.playerTag);
         teleported = false;
         this.timeUntilActive = 0;
@@ -38,15 +39,25 @@ public class TeleportAndSwap : MonoBehaviour
             teleported = true;
             this.timeUntilActive = this.cooldown;
             Vector3 t = this.transform.position;
+            Quaternion r = this.transform.rotation;
+            Transform ogParent = this.player.transform.parent;
+            this.player.transform.parent = this.transform;
+            Quaternion playerR = this.player.transform.rotation * Quaternion.Inverse(this.transform.rotation);
             this.player.GetComponent<CharacterController>().enabled = false;
             this.player.GetComponent<Collider>().enabled = false;
             this.transform.position = this.destinationTeleport.transform.position;
-            this.player.transform.position = this.destinationTeleport.transform.position;
+            this.destinationTeleport.transform.position = t;
+            this.transform.rotation = this.destinationTeleport.transform.rotation;
+            this.destinationTeleport.transform.rotation = r;
+            this.player.transform.localPosition = new Vector3(
+                this.player.transform.localPosition.x,
+                this.player.transform.localPosition.y,
+                -this.player.transform.localPosition.z);
+            this.player.transform.parent = ogParent;
             if (this.invertRotationOnTeleport)
             {
                 this.player.transform.rotation *= Quaternion.AngleAxis(180, Vector3.up);
             }
-            this.destinationTeleport.transform.position = t;
             this.player.GetComponent<CharacterController>().enabled = true;
             this.player.GetComponent<Collider>().enabled = true;
         }
