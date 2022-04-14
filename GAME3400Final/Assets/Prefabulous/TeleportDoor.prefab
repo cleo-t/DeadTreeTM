@@ -112,4 +112,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickRadius: 1
   destination: {fileID: 0}
+  destinationForwardOffset: 0.75
+  destinationHeightOffset: -0.36
   playerTag: Player

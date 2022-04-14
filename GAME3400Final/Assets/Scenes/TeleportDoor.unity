@@ -403,13 +403,17 @@ PrefabInstance:
       propertyPath: destination
       value: 
       objectReference: {fileID: 525213125092098098}
+    - target: {fileID: 4546648133643110130, guid: b2586103c5f344445b3ac192c674085b, type: 3}
+      propertyPath: destinationHeightOffset
+      value: -0.36
+      objectReference: {fileID: 0}
     - target: {fileID: 6627656088971982768, guid: b2586103c5f344445b3ac192c674085b, type: 3}
       propertyPath: m_Name
       value: TeleportDoor (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6634302917085505381, guid: b2586103c5f344445b3ac192c674085b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6634302917085505381, guid: b2586103c5f344445b3ac192c674085b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -469,13 +473,17 @@ PrefabInstance:
       propertyPath: destination
       value: 
       objectReference: {fileID: 2103556215}
+    - target: {fileID: 4546648133643110130, guid: b2586103c5f344445b3ac192c674085b, type: 3}
+      propertyPath: destinationHeightOffset
+      value: -0.36
+      objectReference: {fileID: 0}
     - target: {fileID: 6627656088971982768, guid: b2586103c5f344445b3ac192c674085b, type: 3}
       propertyPath: m_Name
       value: TeleportDoor
       objectReference: {fileID: 0}
     - target: {fileID: 6634302917085505381, guid: b2586103c5f344445b3ac192c674085b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6634302917085505381, guid: b2586103c5f344445b3ac192c674085b, type: 3}
       propertyPath: m_LocalPosition.x
