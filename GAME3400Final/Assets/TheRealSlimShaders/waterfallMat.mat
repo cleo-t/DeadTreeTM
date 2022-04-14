@@ -35,9 +35,10 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ripple_amount: 2
-    - _voronoi_scale: 15
-    - _voronoi_speed: 6
+    - _ripple_amount: 2.48
+    - _vertex_offset_amount: -0.2
+    - _voronoi_scale: 13.5
+    - _voronoi_speed: 10
     m_Colors:
     - _color: {r: 0, g: 0.6645422, b: 1, a: 0}
     - _ripple_speed: {r: 0, g: -0.4, b: 0, a: 0}
