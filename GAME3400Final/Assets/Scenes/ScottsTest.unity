@@ -1694,11 +1694,11 @@ PrefabInstance:
       objectReference: {fileID: 1939278572}
     - target: {fileID: 908659826478108565, guid: 299e0c59b6851466a93a7c59545db35b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1
+      value: 0.113
       objectReference: {fileID: 0}
     - target: {fileID: 908659826478108565, guid: 299e0c59b6851466a93a7c59545db35b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.041
+      value: 0.069
       objectReference: {fileID: 0}
     - target: {fileID: 908659826748055588, guid: 299e0c59b6851466a93a7c59545db35b, type: 3}
       propertyPath: m_Mesh
