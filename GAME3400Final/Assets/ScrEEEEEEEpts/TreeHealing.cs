@@ -13,8 +13,9 @@ public class TreeHealing : MonoBehaviour
     private float healDuration = 5;
 
     [Header("VFX")]
+    [SerializeField]
     private VisualEffect risingLeavesFX;
-    [Header("FX")]
+    [SerializeField]
     private VisualEffect healedFX;
 
     [Header("Fireflies")]
@@ -55,6 +56,9 @@ public class TreeHealing : MonoBehaviour
         this.initialFireflyRadius = this.fireflyGroup.radiusPercent;
         this.initialFireflyLightPercent = this.fireflyGroup.lightPercent;
         this.initialLeafPercent = this.groundLeaves.leafPercent;
+
+        this.healedFX.Stop();
+        this.risingLeavesFX.Stop();
     }
 
     void Update()
