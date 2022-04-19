@@ -13,7 +13,9 @@ public class TreeHealing : MonoBehaviour
     private float healDuration = 5;
 
     [Header("VFX")]
-    private VisualEffect visualEffect;
+    private VisualEffect risingLeavesFX;
+    [Header("FX")]
+    private VisualEffect healedFX;
 
     [Header("Fireflies")]
     [SerializeField]
@@ -64,8 +66,8 @@ public class TreeHealing : MonoBehaviour
             if (!this.healingDone && this.healSecondsRemaining <= 0)
             {
                 this.healingDone = true;
-                // Set which animation to play?
-                // this.visualEffect.Play();
+                this.risingLeavesFX.Stop();
+                this.healedFX.Play();
             }
             if (this.healSecondsRemaining > this.healDuration)
             {
@@ -101,8 +103,7 @@ public class TreeHealing : MonoBehaviour
             this.GetComponent<Collider>().enabled = false;
 
             this.healSecondsRemaining = this.healDuration;
-            // Set which animation to play?
-            // this.visualEffect.Play();
+            this.risingLeavesFX.Play();
         }
     }
 }
