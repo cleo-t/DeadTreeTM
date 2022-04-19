@@ -35,11 +35,18 @@ public class TreeHealing : MonoBehaviour
     [SerializeField]
     private float brightnessQ = 1.5f;
 
+    [Header("Leaves")]
+    [SerializeField]
+    private GroundLeaves groundLeaves;
+    [SerializeField]
+    private float leafQ = 1;
+
     private bool playerReached;
     private bool healingDone;
     private float healSecondsRemaining;
     private float initialFireflyRadius;
     private float initialFireflyLightPercent;
+    private float initialLeafPercent;
 
     void Start()
     {
@@ -47,6 +54,7 @@ public class TreeHealing : MonoBehaviour
         this.healingDone = false;
         this.initialFireflyRadius = this.fireflyGroup.radiusPercent;
         this.initialFireflyLightPercent = this.fireflyGroup.lightPercent;
+        this.initialLeafPercent = this.groundLeaves.leafPercent;
     }
 
     void Update()
@@ -59,6 +67,7 @@ public class TreeHealing : MonoBehaviour
             if (!this.healingDone)
             {
                 this.fireflyGroup.radiusPercent = this.FireflyRadius(t);
+                this.groundLeaves.leafPercent = this.LeafPercent(t);
             }
             this.fireflyGroup.lightPercent = this.FireflyLight(t);
             this.flashbangImage.color = this.FlashbangColor(t);
@@ -93,6 +102,11 @@ public class TreeHealing : MonoBehaviour
     {
         t = Mathf.Pow(t, this.brightnessQ);
         return Mathf.Lerp(this.initialFireflyLightPercent, 1, t);
+    }
+
+    private float LeafPercent(float t)
+    {
+        return 1 - Mathf.Pow(t, this.leafQ);
     }
 
     private void OnTriggerEnter(Collider other)

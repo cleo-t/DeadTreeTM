@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GroundLeaves : MonoBehaviour
 {
-    [SerializeField]
+    [HideInInspector]
     public float leafPercent = 1;
 
     [SerializeField]
@@ -95,10 +95,19 @@ public class GroundLeaves : MonoBehaviour
 
     private void FadeLeaves()
     {
-        int highestIndex = (int)(this.leafPercent * this.leafObjects.Count);
-        for(int i = 0; i < this.leafObjects.Count; i++)
+        int lowestIndex = (int)Mathf.Ceil(this.prevLeafPercent * this.leafObjects.Count);
+        int highestIndex = (int)Mathf.Floor(this.leafPercent * this.leafObjects.Count);
+        bool setActive = true;
+        if (lowestIndex > highestIndex)
         {
-            this.leafObjects[i].SetActive(i < highestIndex);
+            int t = lowestIndex;
+            lowestIndex = highestIndex;
+            highestIndex = t;
+            setActive = false;
+        }
+        for(int i = lowestIndex; i < highestIndex; i++)
+        {
+            this.leafObjects[i].SetActive(setActive);
         }
     }
 }
