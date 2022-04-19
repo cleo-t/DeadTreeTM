@@ -6,11 +6,15 @@ public class FireflyGroup : MonoBehaviour
 {
     [Header("Stuff that changes")]
     [SerializeField]
-    private float radiusPercent = 1;
+    public float radiusPercent = 1;
+    [SerializeField]
+    public float lightPercent = 0.2f;
 
     [Header("Stuff that doesn't")]
     [SerializeField]
     private GameObject fireflyPrefab;
+    [SerializeField]
+    private Light fireflyLight;
     [SerializeField]
     private int count = 8;
     [SerializeField]
@@ -32,6 +36,8 @@ public class FireflyGroup : MonoBehaviour
 
     private List<FireflyMovement> fireflies;
     private float prevRadiusPercent;
+    private float prevLightPercent;
+    private float initialLightIntensity;
 
     void Start()
     {
@@ -41,6 +47,8 @@ public class FireflyGroup : MonoBehaviour
             this.fireflies.Add(this.NewFirefly());
         }
         this.prevRadiusPercent = this.radiusPercent;
+        this.prevLightPercent = this.lightPercent;
+        this.initialLightIntensity = this.fireflyLight.intensity;
     }
 
     private FireflyMovement NewFirefly()
@@ -86,6 +94,14 @@ public class FireflyGroup : MonoBehaviour
             this.UpdateFireflies(this.prevRadiusPercent, this.radiusPercent);
         }
         this.prevRadiusPercent = this.radiusPercent;
+
+        this.lightPercent = Mathf.Clamp(this.lightPercent, 0, 1);
+        if (this.lightPercent == 0)
+        {
+            this.lightPercent = this.prevLightPercent;
+        }
+        this.prevLightPercent = this.lightPercent;
+        this.fireflyLight.intensity = this.initialLightIntensity * this.lightPercent;
     }
 
     private void UpdateFireflies(float oldVal, float newVal)
