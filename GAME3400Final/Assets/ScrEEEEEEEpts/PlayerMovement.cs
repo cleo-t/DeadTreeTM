@@ -50,8 +50,8 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetButton("Jump"))
             {
                 // jump
-                this.hitGround = false;
-                moveDirection.y = Mathf.Sqrt(2 * gravity * jumpHeight);
+                // this.hitGround = false;
+                // moveDirection.y = Mathf.Sqrt(2 * gravity * jumpHeight);
             }
             else
             {
