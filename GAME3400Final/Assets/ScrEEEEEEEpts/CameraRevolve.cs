@@ -67,8 +67,7 @@ public class CameraRevolve : MonoBehaviour
 
         float t = 1 - (this.panSecondsLeft / this.duration);
         Vector3 heightOffset = this.GetHeightOffset(t);
-        float theta = Mathf.Lerp(0, this.maxTheta, t);
-        Vector3 radialOffset = this.GetRadialOffset(theta);
+        Vector3 radialOffset = this.GetRadialOffset(t);
         this.transform.position = this.initialPos + heightOffset + radialOffset;
 
         this.transform.rotation = this.RotationTowardsOrigin(t);
@@ -86,8 +85,9 @@ public class CameraRevolve : MonoBehaviour
         return Mathf.Pow((1 - Mathf.Cos(2 * Mathf.PI * (t - 0.5f))) / 2, this.rotationTransitionSnappiness);
     }
 
-    private Vector3 GetRadialOffset(float theta)
+    private Vector3 GetRadialOffset(float t)
     {
+        float theta = Mathf.Lerp(0, this.maxTheta, t);
         float radius = this.radius * Mathf.Sin(theta / (2 * this.revolutions));
         return radius * ((Vector3.right * Mathf.Cos(theta)) + (Vector3.forward * Mathf.Sin(theta)));
     }
