@@ -1294,6 +1294,7 @@ GameObject:
   - component: {fileID: 2370949217323210830}
   - component: {fileID: 7225413188355002904}
   - component: {fileID: 4333001547731694261}
+  - component: {fileID: 9207012247415447187}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1434,6 +1435,24 @@ MonoBehaviour:
   mouseSensitivity: 200
   minPitch: -90
   maxPitch: 90
+--- !u!114 &9207012247415447187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269443402058702345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3b7ebff08677e4faf716d97c9a5d57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  revolutions: 2
+  duration: 20
+  radius: 100
+  heightOffsetAmplitude: 25
+  heightOffsetFunction: 2
+  rotationTransitionSnappiness: 50
 --- !u!1 &5271230599158198421
 GameObject:
   m_ObjectHideFlags: 0
