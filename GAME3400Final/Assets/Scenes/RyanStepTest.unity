@@ -178,41 +178,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 7723302440459076327, guid: 477c23b8afa772443983747be8f08e32, type: 3}
-      propertyPath: ss
-      value: 
-      objectReference: {fileID: 149538156}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 477c23b8afa772443983747be8f08e32, type: 3}
---- !u!1 &149538155 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1267819507546769109, guid: 477c23b8afa772443983747be8f08e32, type: 3}
-  m_PrefabInstance: {fileID: 149538154}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &149538156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149538155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df40a060ad3197c44904ad40e5e21c22, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stepClips:
-  - type: 0
-    clips:
-    - {fileID: 8300000, guid: 82c2e3eabeadb064c8fbaa29c443103a, type: 3}
-    - {fileID: 8300000, guid: be0718f4108125a42bbc930d0a549351, type: 3}
-    - {fileID: 8300000, guid: 03515a7f551a12849930b623941131bd, type: 3}
-    - {fileID: 8300000, guid: 077c313428cae4f4c9d157a99f35427a, type: 3}
-    - {fileID: 8300000, guid: dde1c0c0fffde1d48b97b46eab9a3708, type: 3}
-    - {fileID: 8300000, guid: a0c0a6e8b5b9b5b41bb5d1eb189c8398, type: 3}
-  stepsPerSecond: 2.25
-  volume: 1
-  initialType: 0
 --- !u!1 &1365282161
 GameObject:
   m_ObjectHideFlags: 0

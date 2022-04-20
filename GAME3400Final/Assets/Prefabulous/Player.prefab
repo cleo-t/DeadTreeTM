@@ -286,6 +286,7 @@ GameObject:
   - component: {fileID: 1267819507546769110}
   - component: {fileID: 1267819507546769106}
   - component: {fileID: 7723302440459076327}
+  - component: {fileID: 149538156}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -358,6 +359,47 @@ MonoBehaviour:
   gravity: 9.81
   jumpHeight: 5
   fpsCam: {fileID: 0}
+  ss: {fileID: 149538156}
+--- !u!114 &149538156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267819507546769109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df40a060ad3197c44904ad40e5e21c22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepClips:
+  - type: 0
+    clips:
+    - {fileID: 8300000, guid: 82c2e3eabeadb064c8fbaa29c443103a, type: 3}
+    - {fileID: 8300000, guid: be0718f4108125a42bbc930d0a549351, type: 3}
+    - {fileID: 8300000, guid: 03515a7f551a12849930b623941131bd, type: 3}
+    - {fileID: 8300000, guid: 077c313428cae4f4c9d157a99f35427a, type: 3}
+    - {fileID: 8300000, guid: dde1c0c0fffde1d48b97b46eab9a3708, type: 3}
+    - {fileID: 8300000, guid: a0c0a6e8b5b9b5b41bb5d1eb189c8398, type: 3}
+  - type: 2
+    clips:
+    - {fileID: 8300000, guid: 35ae14bc8e632054db1f8012b5e0d3c9, type: 3}
+    - {fileID: 8300000, guid: 5b1c203a4028dca4f8aa127dae5598e3, type: 3}
+    - {fileID: 8300000, guid: 55e74ab6eb931db4c9ee1ac34666feaa, type: 3}
+    - {fileID: 8300000, guid: afe02ab07b9832a4c9e6a80c8ce082d7, type: 3}
+    - {fileID: 8300000, guid: 06ded33491419a746a2abdaa2286cdd5, type: 3}
+    - {fileID: 8300000, guid: 50594f7a10447d1469a9330d1602fe08, type: 3}
+  - type: 1
+    clips:
+    - {fileID: 8300000, guid: aa330c2f65ae450458098c971ac9f81b, type: 3}
+    - {fileID: 8300000, guid: 1a19dfcebe4c3464686320cbcc95dcea, type: 3}
+    - {fileID: 8300000, guid: f51549cfc40c421428e64d0f0b363bc9, type: 3}
+    - {fileID: 8300000, guid: fff70669193b7f942841743eab8b9682, type: 3}
+    - {fileID: 8300000, guid: c1df6fbe227dbe940b21fd5c08ecfccd, type: 3}
+    - {fileID: 8300000, guid: 1fdd988045d1a534289c76d59e2236c5, type: 3}
+  stepsPerSecond: 2.25
+  volume: 1
+  initialType: 1
 --- !u!1 &1303836223864020348
 GameObject:
   m_ObjectHideFlags: 0
