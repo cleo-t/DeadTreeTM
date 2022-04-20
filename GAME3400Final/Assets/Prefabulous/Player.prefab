@@ -1451,7 +1451,7 @@ MonoBehaviour:
   duration: 20
   radius: 100
   heightOffsetAmplitude: 25
-  heightOffsetFunction: 2
+  heightOffsetFunction: 1
   rotationTransitionSnappiness: 50
 --- !u!1 &5271230599158198421
 GameObject:
