@@ -204,6 +204,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   healDuration: 10
+  healClip: {fileID: 8300000, guid: 88ba00a5fd1c7a14bbc24e9cecc18cc7, type: 3}
+  healClipDelay: 1
+  healClipVolume: 1
   risingLeavesFX: {fileID: 2999303065775341509}
   healedFX: {fileID: 0}
   fireflyGroup: {fileID: 5039737752792587582}

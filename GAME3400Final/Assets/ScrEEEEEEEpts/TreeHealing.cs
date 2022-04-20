@@ -11,6 +11,12 @@ public class TreeHealing : MonoBehaviour
     private string playerTag = "Player";
     [SerializeField]
     private float healDuration = 5;
+    [SerializeField]
+    private AudioClip healClip;
+    [SerializeField]
+    private float healClipDelay = 1;
+    [SerializeField]
+    private float healClipVolume = 1;
 
     [Header("VFX")]
     [SerializeField]
@@ -122,6 +128,13 @@ public class TreeHealing : MonoBehaviour
 
             this.healSecondsRemaining = this.healDuration;
             this.risingLeavesFX.Play();
+            StartCoroutine(this.PlayHealingSFX());
         }
+    }
+
+    private IEnumerator PlayHealingSFX()
+    {
+        yield return new WaitForSeconds(this.healClipDelay);
+        AudioSource.PlayClipAtPoint(this.healClip, this.transform.position, this.healClipVolume);
     }
 }
