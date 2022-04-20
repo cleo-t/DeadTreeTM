@@ -88,7 +88,7 @@ public class CameraRevolve : MonoBehaviour
     private Vector3 GetRadialOffset(float t)
     {
         float theta = Mathf.Lerp(0, this.maxTheta, t);
-        float radius = this.radius * Mathf.Sin(theta / (2 * this.revolutions));
+        float radius = this.radius * (1 - Mathf.Cos(theta / this.revolutions)) / 2;
         return radius * ((Vector3.right * Mathf.Cos(theta)) + (Vector3.forward * Mathf.Sin(theta)));
     }
 
