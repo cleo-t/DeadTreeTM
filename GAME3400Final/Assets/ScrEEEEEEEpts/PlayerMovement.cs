@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Camera fpsCam;
 
+    public StepSounds ss;
 
     private Vector3 moveDirection;
     private Vector3 input;
@@ -68,6 +69,7 @@ public class PlayerMovement : MonoBehaviour
         {
             //mid-air
         }
+        this.ss.active = this._controller.isGrounded && moveDirection != Vector3.zero;
         moveDirection.y -= gravity * Time.deltaTime;
         _controller.Move(moveDirection * Time.deltaTime);
     }
