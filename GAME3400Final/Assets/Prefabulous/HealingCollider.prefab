@@ -164,6 +164,7 @@ GameObject:
   - component: {fileID: 4974594272471586646}
   - component: {fileID: 4974594272471586647}
   - component: {fileID: 4974594272471586664}
+  - component: {fileID: 4337460581563552799}
   m_Layer: 7
   m_Name: HealingCollider
   m_TagString: Untagged
@@ -244,10 +245,27 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 14.39
+  m_Radius: 8
   m_Height: 45.65
   m_Direction: 1
   m_Center: {x: 0, y: 7.02, z: 0}
+--- !u!114 &4337460581563552799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974594272471586666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3cf45fa74826b42be90af9fff93e9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  fireflyGroup: {fileID: 5039737752792587582}
+  fireflyMovementQ: 1
+  fireflyLerpSpeed: 10
+  initialTriggerRadius: 15
 --- !u!1 &4974594272632420016
 GameObject:
   m_ObjectHideFlags: 0

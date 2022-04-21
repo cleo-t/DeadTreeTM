@@ -698,6 +698,78 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4523051755576099726}
     m_Modifications:
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Name
+      value: Radius
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Value
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Name
+      value: SDFTransform_scale
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Name
+      value: SDFTransform_position
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Float.m_Array.Array.data[0].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Name
+      value: SDFMesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.z
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.y
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Value
+      value: 
+      objectReference: {fileID: 11700000, guid: b315af754f2ed486f8b5d3208b04226d, type: 2}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_PropertySheet.m_NamedObject.m_Array.Array.data[0].m_Overridden
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
       propertyPath: healedFX
       value: 

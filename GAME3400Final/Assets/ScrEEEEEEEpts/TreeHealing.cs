@@ -76,7 +76,7 @@ public class TreeHealing : MonoBehaviour
 
             if (!this.healingDone)
             {
-                this.fireflyGroup.radiusPercent = this.FireflyRadius(t);
+                // this.fireflyGroup.radiusPercent = this.FireflyRadius(t);
                 this.groundLeaves.leafPercent = this.LeafPercent(t);
             }
             this.fireflyGroup.lightPercent = this.FireflyLight(t);
