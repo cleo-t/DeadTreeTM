@@ -336,7 +336,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614558}
   - {fileID: 8926484042661614583}
   dataType: 0
-  capacity: 100000
+  capacity: 9000
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 1
@@ -520,7 +520,7 @@ MonoBehaviour:
   m_Disabled: 0
   compositionPosition: 1
   compositionDirection: 0
-  positionMode: 1
+  positionMode: 0
   spawnMode: 0
   killOutliers: 0
   projectionSteps: 2
@@ -3648,7 +3648,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 12500
+      m_SerializableObject: 6000
     m_Space: 2147483647
   m_Property:
     name: Count
@@ -4660,7 +4660,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661614778}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: position
   Composition: 1
   Source: 0
@@ -7239,7 +7239,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614868}
   - {fileID: 8926484042661614872}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: color
   Composition: 3
   Source: 0
@@ -8623,9 +8623,9 @@ MonoBehaviour:
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
-  m_UIPosition: {x: 1910, y: 2753}
+  m_UIPosition: {x: 2024, y: 2790}
   m_UICollapsed: 0
-  m_UISuperCollapsed: 0
+  m_UISuperCollapsed: 1
   m_InputSlots:
   - {fileID: 8926484042661614990}
   - {fileID: 8926484042661615014}
@@ -9431,7 +9431,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615055}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
 --- !u!114 &8926484042661615055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9859,7 +9859,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615072}
   - {fileID: 8926484042661615077}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: velocity
   Composition: 0
   Source: 0
@@ -10227,7 +10227,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615083}
   - {fileID: 8926484042661615084}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: lifetime
   Composition: 0
   Source: 0
@@ -10452,7 +10452,7 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   mode: 1
   axes: 4
 --- !u!114 &8926484042661615093
@@ -10476,7 +10476,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615094}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: color
   Composition: 0
   AlphaComposition: 0
@@ -10540,7 +10540,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615096}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
 --- !u!114 &8926484042661615096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10733,7 +10733,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615102}
   - {fileID: 8926484042661615103}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   compositionPosition: 1
   compositionDirection: 0
   positionMode: 1
@@ -11245,7 +11245,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615140}
   - {fileID: 8926484042661615141}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   Mode: 1
   NoiseType: 0
 --- !u!114 &8926484042661615123
@@ -11916,7 +11916,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615152}
   - {fileID: 8926484042661615156}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: angle
   Composition: 0
   Source: 0
@@ -13126,7 +13126,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615199}
   - {fileID: 8926484042661615203}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: scale
   Composition: 0
   Source: 0
@@ -13425,7 +13425,7 @@ MonoBehaviour:
   m_InputSlots:
   - {fileID: 8926484042661615208}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: size
   Composition: 0
   Source: 0
@@ -13487,7 +13487,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615210}
   - {fileID: 8926484042661615214}
   m_OutputSlots: []
-  m_Disabled: 0
+  m_Disabled: 1
   attribute: angle
   Composition: 2
   Source: 0

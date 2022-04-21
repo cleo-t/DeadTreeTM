@@ -398,7 +398,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: c1df6fbe227dbe940b21fd5c08ecfccd, type: 3}
     - {fileID: 8300000, guid: 1fdd988045d1a534289c76d59e2236c5, type: 3}
   stepsPerSecond: 2.25
-  volume: 1
+  volume: 0.2
   initialType: 0
 --- !u!1 &1303836223864020348
 GameObject:
