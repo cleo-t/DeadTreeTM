@@ -20,6 +20,10 @@ public class TreeHealing : MonoBehaviour
     private float healClipDelay = 1;
     [SerializeField]
     private float healClipVolume = 1;
+    [SerializeField]
+    private Material newMaterial;
+    [SerializeField]
+    private List<GameObject> thingsToAddMaterialTo;
 
     [Header("VFX")]
     [SerializeField]
@@ -90,6 +94,7 @@ public class TreeHealing : MonoBehaviour
                 this.healingDone = true;
                 this.risingLeavesFX.Stop();
                 this.healedFX.Play();
+                this.AddNewMaterial();
                 if (this.OnTreeHealFinished != null)
                 {
                     this.OnTreeHealFinished.Invoke();
@@ -99,6 +104,14 @@ public class TreeHealing : MonoBehaviour
             {
                 this.playerReached = false;
             }
+        }
+    }
+
+    private void AddNewMaterial()
+    {
+        foreach(GameObject obj in this.thingsToAddMaterialTo)
+        {
+            obj.GetComponent<Renderer>().material = this.newMaterial;
         }
     }
 

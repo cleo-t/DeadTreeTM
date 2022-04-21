@@ -774,6 +774,38 @@ PrefabInstance:
       propertyPath: healedFX
       value: 
       objectReference: {fileID: 1593869280754503485}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: newMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: df07ff4a1aff845acaa5b0da09986f1c, type: 2}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[0]
+      value: 
+      objectReference: {fileID: 2320265182559350821}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[1]
+      value: 
+      objectReference: {fileID: 2620917554588084218}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[2]
+      value: 
+      objectReference: {fileID: 8865611152625850214}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[3]
+      value: 
+      objectReference: {fileID: 8783055708725051784}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[4]
+      value: 
+      objectReference: {fileID: 5607612461026471838}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[5]
+      value: 
+      objectReference: {fileID: 3832118648573233173}
     - target: {fileID: 4974594272471586665, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
       propertyPath: m_RootOrder
       value: 2

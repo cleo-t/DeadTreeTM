@@ -302,6 +302,18 @@ PrefabInstance:
       propertyPath: healedFX
       value: 
       objectReference: {fileID: 6619321515902400159}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: newMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: df07ff4a1aff845acaa5b0da09986f1c, type: 2}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974594272471586646, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: thingsToAddMaterialTo.Array.data[0]
+      value: 
+      objectReference: {fileID: 7268669215582216679}
     - target: {fileID: 4974594272471586665, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
       propertyPath: m_RootOrder
       value: 2
