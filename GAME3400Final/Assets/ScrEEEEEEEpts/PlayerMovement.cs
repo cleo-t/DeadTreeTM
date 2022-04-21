@@ -64,15 +64,15 @@ public class PlayerMovement : MonoBehaviour
                     this.hitGround = true;
                   
                 }
-                moveDirection.y = 0.0f;
+                moveDirection.y = -3.0f;
             }
         }
         else
         {
             //mid-air
+            moveDirection.y -= gravity * Time.deltaTime;
         }
-        this.ss.active = this._controller.isGrounded && moveDirection != Vector3.zero;
-        moveDirection.y -= gravity * Time.deltaTime;
+        this.ss.active = this._controller.isGrounded && moveDirection != Vector3.down * 3;
         _controller.Move(moveDirection * Time.deltaTime);
     }
 
