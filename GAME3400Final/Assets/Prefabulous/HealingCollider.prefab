@@ -213,7 +213,7 @@ MonoBehaviour:
   fireflyRadiusChangeQ: 0.5
   minRadiusPercent: 0.1
   flashbangImage: {fileID: 4974594272632420030}
-  flashbangColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  flashbangColor: {r: 1, g: 0.9878717, b: 0.740566, a: 0.6039216}
   flashbangQ: 7
   brightnessQ: 4
   groundLeaves: {fileID: 1335307095}
