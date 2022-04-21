@@ -8,8 +8,11 @@ public class KeyScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        door.GetComponent<BoxCollider>().isTrigger = true;
-        door.GetComponent<DoorToSwapScenes>().isOpen = true;
+        if (door != null)
+        {
+            door.GetComponent<BoxCollider>().isTrigger = true;
+            door.GetComponent<DoorToSwapScenes>().isOpen = true;
+        }
         Destroy(gameObject, .2f);
     }
 
