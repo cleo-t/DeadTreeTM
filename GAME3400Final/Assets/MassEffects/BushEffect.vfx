@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Disabled: 0
   compositionPosition: 1
   compositionDirection: 0
-  positionMode: 0
+  positionMode: 1
   spawnMode: 0
   killOutliers: 0
   projectionSteps: 2
@@ -3876,7 +3876,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.5
+      m_SerializableObject: 0.2
     m_Space: 2147483647
   m_Property:
     name: Size
@@ -3936,7 +3936,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5000
+      m_SerializableObject: 9000
     m_Space: 2147483647
   m_Property:
     name: Count
