@@ -3,7 +3,17 @@ guid: 8dd6cae83197dba4589c654269d2cf1c
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_door_iron
+    second: {fileID: 2100000, guid: 8c7ed5eabef178841b99fb372a38da6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat_door_plank
+    second: {fileID: 2100000, guid: 1440b139c107b6542a1efc1eedb8bf3e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
