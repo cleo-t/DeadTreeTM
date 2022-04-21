@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.VFX;
 using UnityEngine.UI;
+using System;
 
 public class TreeHealing : MonoBehaviour
 {
+    public event Action OnTreeHealFinished;
+
     [Header("General")]
     [SerializeField]
     private string playerTag = "Player";
@@ -87,6 +90,10 @@ public class TreeHealing : MonoBehaviour
                 this.healingDone = true;
                 this.risingLeavesFX.Stop();
                 this.healedFX.Play();
+                if (this.OnTreeHealFinished != null)
+                {
+                    this.OnTreeHealFinished.Invoke();
+                }
             }
             if (this.healSecondsRemaining > this.healDuration)
             {

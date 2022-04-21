@@ -2,20 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Lol it's actually the tree healing
 public class SpawnOnCinematicEnd : MonoBehaviour
 {
     [SerializeField]
     private GameObject objectToSpawn;
+    [SerializeField]
+    private TreeHealing healingTree;
 
     void Start()
     {
         this.objectToSpawn.SetActive(false);
-        CameraRevolve.OnCinematicFinish += this.OnCinematicFinish;
+        this.healingTree.OnTreeHealFinished += this.OnCinematicFinish;
     }
 
     private void OnDestroy()
     {
-        CameraRevolve.OnCinematicFinish -= this.OnCinematicFinish;
+        this.healingTree.OnTreeHealFinished -= this.OnCinematicFinish;
     }
 
     private void OnCinematicFinish()
