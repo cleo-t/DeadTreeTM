@@ -14,6 +14,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mat_door_plank
     second: {fileID: 2100000, guid: 1440b139c107b6542a1efc1eedb8bf3e, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: texture_door_iron
+    second: {fileID: 2800000, guid: 15da46f0c04502948b9dc1a6dc226909, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: texure_door_plank
+    second: {fileID: 2800000, guid: 8ab67c2862ae1fd48a5a40c8987c1dff, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
