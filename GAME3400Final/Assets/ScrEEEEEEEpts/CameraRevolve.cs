@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class CameraRevolve : MonoBehaviour
 {
     public static bool active;
+    public static Action OnCinematicFinish;
 
     private enum HeightFunction
     {
@@ -62,6 +64,10 @@ public class CameraRevolve : MonoBehaviour
         if (this.panSecondsLeft <= 0)
         {
             active = false;
+            if (OnCinematicFinish != null)
+            {
+                OnCinematicFinish.Invoke();
+            }
             return;
         }
 

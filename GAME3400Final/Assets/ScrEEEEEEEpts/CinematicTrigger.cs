@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class CinematicTrigger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private string playerTag = "Player";
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter(Collider other)
     {
-        
+        if (other.CompareTag(this.playerTag))
+        {
+            CameraRevolve cr = Camera.main.GetComponent<CameraRevolve>();
+            if (cr != null)
+            {
+                cr.StartPan();
+            }
+            this.GetComponent<Collider>().enabled = false;
+        }
     }
 }
