@@ -321,7 +321,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh40744
+  m_Name: pb_Mesh291266
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -653,6 +653,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToGoTo: JUST INCASE
   isOpen: 0
+--- !u!114 &588242205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588242202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d753ba51f96a174dbbe3baf4e3849ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c7f9dbe88b60e8b4ba09da476854b4c6, type: 3}
+  - {fileID: 8300000, guid: 007b0b9412b7d6d42aa8948ad1e24a1a, type: 3}
+  - {fileID: 8300000, guid: 26df6cca900d5d34985931d670416bc2, type: 3}
+  volume: 1
 --- !u!20 &608348559 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 6545228398015697801, guid: 477c23b8afa772443983747be8f08e32, type: 3}
@@ -670,6 +687,7 @@ GameObject:
   - component: {fileID: 825452610}
   - component: {fileID: 825452609}
   - component: {fileID: 825452608}
+  - component: {fileID: 825452612}
   m_Layer: 0
   m_Name: Moomoo Door
   m_TagString: Untagged
@@ -755,6 +773,23 @@ Transform:
   m_Father: {fileID: 1908215098}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &825452612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825452607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d753ba51f96a174dbbe3baf4e3849ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c7f9dbe88b60e8b4ba09da476854b4c6, type: 3}
+  - {fileID: 8300000, guid: 007b0b9412b7d6d42aa8948ad1e24a1a, type: 3}
+  - {fileID: 8300000, guid: 26df6cca900d5d34985931d670416bc2, type: 3}
+  volume: 1
 --- !u!1 &926814171
 GameObject:
   m_ObjectHideFlags: 0
@@ -3547,6 +3582,7 @@ GameObject:
   - component: {fileID: 1436724611}
   - component: {fileID: 1436724610}
   - component: {fileID: 1436724609}
+  - component: {fileID: 1436724613}
   m_Layer: 0
   m_Name: Stormy Door
   m_TagString: Untagged
@@ -3632,13 +3668,30 @@ Transform:
   m_Father: {fileID: 1908215098}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 216, z: 0}
+--- !u!114 &1436724613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436724608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d753ba51f96a174dbbe3baf4e3849ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c7f9dbe88b60e8b4ba09da476854b4c6, type: 3}
+  - {fileID: 8300000, guid: 007b0b9412b7d6d42aa8948ad1e24a1a, type: 3}
+  - {fileID: 8300000, guid: 26df6cca900d5d34985931d670416bc2, type: 3}
+  volume: 1
 --- !u!43 &1478687888
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh77296
+  m_Name: pb_Mesh291198
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3857,6 +3910,41 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cddc43d8e1598d46be0dc9fa10c01a4, type: 3}
+--- !u!1 &1585306661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8cddc43d8e1598d46be0dc9fa10c01a4, type: 3}
+  m_PrefabInstance: {fileID: 1585306660}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1585306662
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585306661}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4, y: 2.89, z: 1.27}
+  m_Center: {x: 0, y: 1.44, z: 0}
+--- !u!114 &1585306663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585306661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d753ba51f96a174dbbe3baf4e3849ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c7f9dbe88b60e8b4ba09da476854b4c6, type: 3}
+  - {fileID: 8300000, guid: 007b0b9412b7d6d42aa8948ad1e24a1a, type: 3}
+  - {fileID: 8300000, guid: 26df6cca900d5d34985931d670416bc2, type: 3}
+  volume: 1
 --- !u!1 &1848259532
 GameObject:
   m_ObjectHideFlags: 0
@@ -3869,6 +3957,7 @@ GameObject:
   - component: {fileID: 1848259535}
   - component: {fileID: 1848259534}
   - component: {fileID: 1848259533}
+  - component: {fileID: 1848259537}
   m_Layer: 0
   m_Name: Black-Ghosty Door
   m_TagString: Untagged
@@ -3954,6 +4043,23 @@ Transform:
   m_Father: {fileID: 1908215098}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 72, z: 0}
+--- !u!114 &1848259537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848259532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d753ba51f96a174dbbe3baf4e3849ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: c7f9dbe88b60e8b4ba09da476854b4c6, type: 3}
+  - {fileID: 8300000, guid: 007b0b9412b7d6d42aa8948ad1e24a1a, type: 3}
+  - {fileID: 8300000, guid: 26df6cca900d5d34985931d670416bc2, type: 3}
+  volume: 1
 --- !u!1 &1908215092
 GameObject:
   m_ObjectHideFlags: 0
