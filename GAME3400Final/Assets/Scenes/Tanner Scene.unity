@@ -3637,6 +3637,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: df07ff4a1aff845acaa5b0da09986f1c, type: 2}
     - target: {fileID: 5395165827353451601, guid: adec21c4a0e3d469f8d1147e57e23284, type: 3}
+      propertyPath: flashbangColor.a
+      value: 0.9098039
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395165827353451601, guid: adec21c4a0e3d469f8d1147e57e23284, type: 3}
+      propertyPath: flashbangColor.b
+      value: 0.73018867
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395165827353451601, guid: adec21c4a0e3d469f8d1147e57e23284, type: 3}
+      propertyPath: flashbangColor.g
+      value: 0.9785011
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395165827353451601, guid: adec21c4a0e3d469f8d1147e57e23284, type: 3}
+      propertyPath: flashbangColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5395165827353451601, guid: adec21c4a0e3d469f8d1147e57e23284, type: 3}
       propertyPath: thingsToAddMaterialTo.Array.size
       value: 17
       objectReference: {fileID: 0}
