@@ -76,4 +76,10 @@ public class PlayerMovement : MonoBehaviour
         _controller.Move(moveDirection * Time.deltaTime);
     }
 
+    public void ResetPlayerVelocity()
+    {
+        moveDirection.x = 0;
+        moveDirection.z = 0;
+    }
+
 }
