@@ -698,6 +698,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4523051755576099726}
     m_Modifications:
+    - target: {fileID: 2999303065775341506, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999303065775341507, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2999303065775341509, guid: 35b74b0494e9e8243b06a9363ad92d1e, type: 3}
       propertyPath: m_PropertySheet.m_Float.m_Array.Array.size
       value: 1
